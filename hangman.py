@@ -50,16 +50,14 @@ while chances > 0:  #flag chance condition using chances
              break                                         
 
         else:
-          print("You entered a wrong guess")                 
-
-    
-        if chances == 0:
-          print("No more chances!")
-          print("game over")
-          break
+          print("You entered a wrong guess")                  
+        
 
     else: 
         print("Please only enter single letter")
         
+else: 
+    print("No more chances!")
+    print("game over")
     
         
