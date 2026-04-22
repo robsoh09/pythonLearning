@@ -33,7 +33,7 @@ print(f"You have {chances} chances to guess the word.")
 while chances > 0:  #flag chance condition using chances
 
     letter = input("\nGuess the letters of the word: ").lower()
-    if len(letter) == 1 and letter.isalpha() and chances > 0:
+    if len(letter) == 1 and letter.isalpha():
         chances -= 1
         print(f"You have {chances} tries left")
 
