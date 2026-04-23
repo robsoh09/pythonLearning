@@ -8,12 +8,8 @@ For simplicity, the program gives word length + 2 chances.
 Example: If the secret word is mango (5 letters), the player gets 7 chances.
 
 """
+from modules.mask import mask_word    #replace the word with * by using the len of the word and multiply by len    
 import random
-def mask_word(word):
-    
-    return "*" * len(word)
-    #replace the word with * by using the len of the word and multiply by len    
-
 
 
 word_list = ["word", "sleepy", "happy", "money", "cheapo", "cooked", "bombastic"]
