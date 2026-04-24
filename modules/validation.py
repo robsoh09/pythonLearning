@@ -5,7 +5,7 @@ def input_validation(user_input):
 
     """
     if "," in user_input: 
-      print("Please use space instead to separate the numbers") 
+      print("Please ") 
       return "retry", None # returning a status for game to continue its logic 
     
     results = user_input.split() #splitting the whitespace if there is no , detected

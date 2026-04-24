@@ -1,9 +1,4 @@
 import random 
-"""
-player selection updated with key:pair dict in a list. 
-This provides an easier route to collect players, give them an number and compare them even if the name is the same. 
-main.py needs to change to reflect the output change. 
-"""
 def choose_player(player_a, player_b):
     player_list = [{}]
     player_list = [{1:player_a}, 
@@ -16,4 +11,8 @@ def choose_player(player_a, player_b):
         choice2 = player_list[0] #else choice2 is player_a if choice is player_b
 
     return choice, choice2 #return a tuple 
+
+
+player_a, player_b = choose_player("Rob", "Soh")
+print(player_a, player_b)
 
